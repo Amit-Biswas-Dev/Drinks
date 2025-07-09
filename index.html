@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive DOM Example</title>
+        <link rel="stylesheet" href="assignment_final.css">
+    </head>
+    <body>
+       
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Cock....">
+            <button  onclick="searchProducts()">Search</button>
+
+        </div>
+        <hr>
+        <div class="layout">
+            <section class="product-box">
+             <div id="product-container" class="product-container"></div>
+
+        <div id="modal" class="modal">
+        <div class="modal-content" id="details-container">
+        <span class="close-button" onclick="closeModal()"></span>
+                        
+        </div>
+        </div>
+
+        <div id="details-container" class="container mt-4"></div>
+        
+        </section>
+
+        <section class="cart-box">
+                <div id="main">
+
+            <div id="cart-container">
+                <div>
+                    <h3>Total Cart : <span id="count">0</span> </h3>
+                    <h4>SL      IMG     Name</h4>
+                </div>
+            </div>
+            
+            <div id="main-container" class="main-conainer">
+            </div>
+        </div>
+
+        </section>
+        </div>
+        
+        
+
+       
+           
+
+
+        <script src="assignment_final.js"></script>
+    </body>
+</html>
